@@ -1,6 +1,10 @@
-## This script enables retreival of a cached inverse of a square invertible matrix and calculation and caching of the inverse if the inverse is not already cached
+## This script enables retreival of a cached inverse of a square invertible matrix
+## and calculation and caching of the inverse if the inverse is not already cached,
+## following the example for saving the mean of a vector
 
-## Given an invertible matrix, 'x', this function will look up the stored inverse. If the inverse is not stored, the function will calculate it and store it
+
+## Given an invertible matrix, 'x', this function will look up the stored inverse. 
+## If the inverse is not stored, the function will calculate it and store it
 
 makeCacheMatrix <- function(x = matrix()) {
 	i <- NULL
